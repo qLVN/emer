@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Card Background</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSegmentCell</string>
+			<key>default</key>
+			<integer>1</integer>
+			<key>defaults</key>
+			<string>com.liven.emerprefs</string>
+			<key>key</key>
+			<string>cardBackgroundType</string>
+			<key>validValues</key>
+			<array>
+				<integer>1</integer>
+				<integer>2</integer>
+				<string>3</string>
+				<string>4</string>
+			</array>
+			<key>validTitles</key>
+			<array>
+				<string>Dark Blur</string>
+				<string>Light Blur</string>
+				<string>Automatic Blur</string>
+				<string>Custom Color</string>
+			</array>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSLinkCell</string>
+			<key>defaults</key>
+			<string>com.liven.emerprefs</string>
+			<key>cellClass</key>
+			<string>SparkColourPickerCell</string>
+			<key>libsparkcolourpicker</key>
+			<dict>
+				<key>defaults</key>
+				<string>com.liven.emerprefs</string>
+				<key>fallback</key>
+				<string>#ffffff</string>
+				<key>alpha</key>
+				<false/>
+				<key>PreviewGradient</key>
+				<false/>
+				<key>key</key>
+				<string>cardBackgroundColor</string>
+			</dict>
+			<key>label</key>
+			<string>Custom Card Background Color</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Text Color</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSLinkCell</string>
+			<key>defaults</key>
+			<string>com.liven.emerprefs</string>
+			<key>cellClass</key>
+			<string>SparkColourPickerCell</string>
+			<key>libsparkcolourpicker</key>
+			<dict>
+				<key>defaults</key>
+				<string>com.liven.emerprefs</string>
+				<key>fallback</key>
+				<string>#ffffff</string>
+				<key>alpha</key>
+				<false/>
+				<key>PreviewGradient</key>
+				<false/>
+			</dict>
+			<key>label</key>
+			<string>Time Color</string>
+			<key>key</key>
+			<string>timeColor</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSLinkCell</string>
+			<key>defaults</key>
+			<string>com.liven.emerprefs</string>
+			<key>cellClass</key>
+			<string>SparkColourPickerCell</string>
+			<key>libsparkcolourpicker</key>
+			<dict>
+				<key>defaults</key>
+				<string>com.liven.emerprefs</string>
+				<key>fallback</key>
+				<string>#ffffff</string>
+				<key>alpha</key>
+				<false/>
+				<key>PreviewGradient</key>
+				<false/>
+			</dict>
+			<key>label</key>
+			<string>Date Color</string>
+			<key>key</key>
+			<string>dateColor</string>
+		</dict>
+	</array>
+	<key>title</key>
+	<string>Appearence</string>
+</dict>
+</plist>

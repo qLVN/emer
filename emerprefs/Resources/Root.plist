@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string> </string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>label</key>
+			<string>Enable</string>
+			<key>default</key>
+			<true/>
+			<key>defaults</key>
+			<string>com.liven.emerprefs</string>
+			<key>key</key>
+			<string>enabled</string>
+			<key>PostNotification</key>
+			<string>com.liven.emerprefs-enable</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Widgets</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSLinkListCell</string>
+			<key>icon</key>
+			<string>emptyWidgetIcon.png</string>
+			<key>default</key>
+			<integer>0</integer>
+			<key>defaults</key>
+			<string>com.liven.emerprefs</string>
+			<key>key</key>
+			<string>FirstWidget</string>
+			<key>staticTextMessage</key>
+			<string>Please choose the widget you want to add</string>
+			<key>detail</key>
+			<string>PSListItemsController</string>
+			<key>label</key>
+			<string>First Widget Item</string>
+			<key>validValues</key>
+			<array>
+				<real>0</real>
+				<integer>1</integer>
+				<integer>2</integer>
+				<integer>3</integer>
+			</array>
+			<key>validTitles</key>
+			<array>
+				<string>None</string>
+				<string>IP Address</string>
+				<string>Personal Hotspot Devices</string>
+				<string>Twitter</string>
+			</array>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSLinkListCell</string>
+			<key>icon</key>
+			<string>emptyWidgetIcon.png</string>
+			<key>default</key>
+			<integer>0</integer>
+			<key>defaults</key>
+			<string>com.liven.emerprefs</string>
+			<key>key</key>
+			<string>SecondWidget</string>
+			<key>staticTextMessage</key>
+			<string>Please choose the widget you want to add</string>
+			<key>detail</key>
+			<string>PSListItemsController</string>
+			<key>label</key>
+			<string>Second Widget Item</string>
+			<key>validValues</key>
+			<array>
+				<real>0</real>
+				<integer>1</integer>
+				<integer>2</integer>
+				<integer>3</integer>
+			</array>
+			<key>validTitles</key>
+			<array>
+				<string>None</string>
+				<string>IP Address</string>
+				<string>Personal Hotspot Devices</string>
+				<string>Twitter</string>
+			</array>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSLinkListCell</string>
+			<key>icon</key>
+			<string>emptyWidgetIcon.png</string>
+			<key>default</key>
+			<integer>0</integer>
+			<key>defaults</key>
+			<string>com.liven.emerprefs</string>
+			<key>key</key>
+			<string>ThirdWidget</string>
+			<key>staticTextMessage</key>
+			<string>Please choose the widget you want to add</string>
+			<key>detail</key>
+			<string>PSListItemsController</string>
+			<key>label</key>
+			<string>Third Widget Item</string>
+			<key>validValues</key>
+			<array>
+				<real>0</real>
+				<integer>1</integer>
+				<integer>2</integer>
+				<integer>3</integer>
+			</array>
+			<key>validTitles</key>
+			<array>
+				<string>None</string>
+				<string>IP Address</string>
+				<string>Personal Hotspot Devices</string>
+				<string>Twitter</string>
+			</array>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSLinkListCell</string>
+			<key>icon</key>
+			<string>emptyWidgetIcon.png</string>
+			<key>default</key>
+			<integer>0</integer>
+			<key>defaults</key>
+			<string>com.liven.emerprefs</string>
+			<key>key</key>
+			<string>FourthWidget</string>
+			<key>staticTextMessage</key>
+			<string>Please choose the widget you want to add</string>
+			<key>detail</key>
+			<string>PSListItemsController</string>
+			<key>label</key>
+			<string>Fourth Widget Item</string>
+			<key>validValues</key>
+			<array>
+				<real>0</real>
+				<integer>1</integer>
+				<integer>2</integer>
+				<integer>3</integer>
+			</array>
+			<key>validTitles</key>
+			<array>
+				<string>None</string>
+				<string>IP Address</string>
+				<string>Personal Hotspot Devices</string>
+				<string>Twitter</string>
+			</array>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSLinkListCell</string>
+			<key>icon</key>
+			<string>emptyWidgetIcon.png</string>
+			<key>default</key>
+			<integer>0</integer>
+			<key>defaults</key>
+			<string>com.liven.emerprefs</string>
+			<key>key</key>
+			<string>FifthWidget</string>
+			<key>staticTextMessage</key>
+			<string>Please choose the widget you want to add</string>
+			<key>detail</key>
+			<string>PSListItemsController</string>
+			<key>label</key>
+			<string>Fifth Widget Item</string>
+			<key>validValues</key>
+			<array>
+				<real>0</real>
+				<integer>1</integer>
+				<integer>2</integer>
+				<integer>3</integer>
+			</array>
+			<key>validTitles</key>
+			<array>
+				<string>None</string>
+				<string>IP Address</string>
+				<string>Personal Hotspot Devices</string>
+				<string>Twitter</string>
+			</array>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Customization</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSLinkCell</string>
+			<key>label</key>
+			<string>Appearence</string>
+			<key>detail</key>
+			<string>AppearencePrefsController</string>
+			<key>isController</key>
+			<true/>
+			<key>icon</key>
+			<string>appearence.png</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSLinkCell</string>
+			<key>label</key>
+			<string>Widgets Settings</string>
+			<key>detail</key>
+			<string>WidgetsSettingsPrefsController</string>
+			<key>isController</key>
+			<true/>
+			<key>icon</key>
+			<string>widgetSettings.png</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Made by Liven with ❤️</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>label</key>
+			<string>Follow me on Reddit</string>
+			<key>action</key>
+			<string>openReddit</string>
+			<key>icon</key>
+			<string>reddit.png</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>label</key>
+			<string>Follow me on Twitter</string>
+			<key>icon</key>
+			<string>twitter.png</string>
+			<key>action</key>
+			<string>openTwitter</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>footerText</key>
+			<string>Emer version 1.0</string>
+			<key>footerAlignment</key>
+			<integer>1</integer>
+		</dict>
+	</array>
+	<key>title</key>
+	<string>Emer</string>
+</dict>
+</plist>

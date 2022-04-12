@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Primary Information</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSegmentCell</string>
+			<key>default</key>
+			<integer>1</integer>
+			<key>defaults</key>
+			<string>com.liven.emerprefs</string>
+			<key>key</key>
+			<string>primaryTwitterInfo</string>
+			<key>validValues</key>
+			<array>
+				<integer>1</integer>
+				<integer>2</integer>
+			</array>
+			<key>validTitles</key>
+			<array>
+				<string>Followers</string>
+				<string>Notifications</string>
+			</array>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Twitter Account</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSEditTextViewCell</string>
+			<key>noAutoCorrect</key>
+			<true/>
+			<key>placeholder</key>
+			<string>Type Here Your Twitter @</string>
+			<key>defaults</key>
+			<string>com.liven.emerprefs</string>
+			<key>key</key>
+			<string>twitterAccount</string>
+		</dict>
+	</array>
+	<key>title</key>
+	<string>Twitter Widget</string>
+</dict>
+</plist>
